@@ -1,8 +1,10 @@
 # Инвариантная самостоятельная работа
 
-### [1.1 Исследовать функционал одного из модулей стандартной библиотеки (string, re, datetime, math, random, os, и т.д.) и, используя инструмент Jupyter Notebook, создать документ с описанием и примерами использования его функционала.]()
-[Ссылка]()
-### [1.2 Создание пользовательского пакета для приложения «Гостевая книга» с прототипами методов, позволяющих взаимодействовать с JSON-файлом (создание, удаление, переименование, чтение, запись).](https://replit.com/@PolinaLazebniko/sem5-Tema1-ISR-12#main.py)
+### [2.1 На основе кода, предоставленного преподавателем, реализовать генератор чисел ряда Фибоначчи. Генератор требуется создать двумя вариантами: с помощью генератора списков, с помощью функции, внутри которой yield.]()
+```python
+
+```
+### [2.2 Разработать программу, позволяющую генерировать уникальные идентификаторы: UUID (universally unique identifier). Структура UUID — на усмотрение студента.](https://replit.com/@PolinaLazebniko/sem5-Tema1-ISR-12#main.py)
 ```python
 """
     Лазебникова Полина 
@@ -16,50 +18,8 @@
 """
 
 def json_read(name_file):
-    """
-    Функция для работы с файлом json
-    Функция формирует строки таблицы из файла, при этом обрабатывая возможные исключения 
-    """ 
-    try:
-        file_open = open(name_file)
-        try:
-            import json
-        except ImportError as e:
-            import json
-            print('Problem with import json')
-        data = json.load(file_open)  
-        t = []
-        title = '| {:^3}| {:^10}| {:^13}| {:^30}| {:^6}| {:^15}|'.format('ID','First name','Last name','Email','Gender','IP-address')
-        delimiter = '-'*len(title)
-        val = '| {id:<3}| {first_name:10}| {last_name:13}| {email:30}| {gender:6}| {ip_address:15}|'
-        t.append(delimiter)  
-        t.append(title)
-        t.append(delimiter)  
-        for i in range(len(data)):
-            tmp = data[i]
-            res = val.format(**tmp)
-            t.append(res)
-            t.append(delimiter)
-        return t
-    except FileNotFoundError as e:
-        print('File not found')  
-    except IOError as e:
-        print('Problem with input or output')
-    except NameError as e:
-        print('Name not found')
+```
+### [2.3 На основе кода, предоставленного преподавателем, реализовать корутину, позволяющую использовав метод send() для возврата генерируемой сущности. В основе корутины должен использоваться принцип блокчейна (цепочки блоков). Кроме механизма возврата нового блока требуется создать механизм, позволяющий вернуть историю сгенерированных блоков.](https://replit.com/@PolinaLazebniko/sem5-Tema1-ISR-12#main.py)
+```python
 
-def main():
-    """
-    Функция, которая вызывает функцию json_read, в качестве аргумента используя файл json, и выводит результат
-    """
-    file_name = json_read('MOCK_DATA.json')
-    for i in file_name:
-        print(i)
-
-main()
-
-if __name__ == "__main__":
-    assert json_read('MOCK_DATA.json') is not  tuple
-    #assert json_read('MOCK_DATA.json') is list, 'Типы не совпадают'
-    #assert json_read('MOCK_DATA.json') is set, 'Типы не совпадают' 
 ```
