@@ -1,19 +1,26 @@
 # Вариативная самостоятельная работа
 
-### [1.3 Создание программы для считывания данных формата CSV с использованием функционала модуля contextlib.](https://replit.com/@PolinaLazebniko/sem4-Tema1-VSR-11#main.py)
+### [2.1 Написать программу, позволяющую выполнять подсчет слов в тексте, а также вычислять размер (в символах) каждого слова. Используйте для возвращения результатов подсчета механизм генераторов](https://replit.com/@PolinaLazebniko/sem6-Tema2-VSR-21#main.py)
 ```python
 """
     Лазебникова Полина 
-    ИВТ 2 курс
+    ИВТ 3 курс
     группа 1.1
 
     Вариативная самостоятельная работа 
-    Задание 1.1: Создание программы для считывания данных формата CSV с использованием функционала модуля contextlib
+    Задание 2.1: Написать программу, позволяющую выполнять подсчет слов в тексте, а 
+    также вычислять размер (в символах) каждого слова. Используйте для возвращения результатов 
+    подсчета механизм генераторов.
 """
-import csv
+def word_length(text):
+    total = len(text.split())
+    print('Word Count: {}'.format(total))
+    for num, word in enumerate(text.split(), 1):
+        yield '{}-{}: {}'.format(num, total, len(word))
 
-with open('file.csv') as csv_file:
-    csv_reader = csv.reader(csv_file, delimiter=',')
-    for row in csv_reader:
-        print(row)
+text = 'Have a nice weekend'
+wl = word_length(text)
+
+for word in wl:
+    print(word)
 ```
