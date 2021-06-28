@@ -4,3 +4,4 @@
 4. [ЛР 7. Предсказание цен на недвижимость](https://colab.research.google.com/drive/1E73BjbjfGPbGcrpBPBFNmCQ7sTkqU1bg?usp=sharing)
 5. [ЛР 8. Предсказание дефолта по кредиту](https://colab.research.google.com/drive/1QY9XgBLvQcliIeSDaPgwn6TBoQ8OtimE?usp=sharing)
 6. [ЛР 9. Рекомендательные системы](https://colab.research.google.com/drive/1hfBZSEkQHbejDVwwO_uiYhVZTddgoGFB?usp=sharing)
+7. [Использование OpenCV для Python](https://colab.research.google.com/drive/1_G1KlGbEJ0Vx0rjPEnYUBC-KqGbfgKQE?usp=sharing)
