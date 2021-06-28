@@ -2,4 +2,5 @@
 2. [ЛР 5. Линейная, полиномиальная модели](https://colab.research.google.com/drive/1EMdqIVt_Q3nHvRN0asXcuQlV9a-bJ43K?usp=sharing)
 3. [ЛР 6. Посещения](https://colab.research.google.com/drive/1n0uXcY9n9JXPfMqitVdS_PqP9JMEMyz0?usp=sharing)
 4. [ЛР 7. Предсказание цен на недвижимость](https://colab.research.google.com/drive/1E73BjbjfGPbGcrpBPBFNmCQ7sTkqU1bg?usp=sharing)
-5. [ЛР 9. Рекомендательные системы](https://colab.research.google.com/drive/1hfBZSEkQHbejDVwwO_uiYhVZTddgoGFB?usp=sharing)
+5. [ЛР 8. Предсказание дефолта по кредиту](https://colab.research.google.com/drive/1QY9XgBLvQcliIeSDaPgwn6TBoQ8OtimE?usp=sharing)
+6. [ЛР 9. Рекомендательные системы](https://colab.research.google.com/drive/1hfBZSEkQHbejDVwwO_uiYhVZTddgoGFB?usp=sharing)
